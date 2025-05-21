@@ -687,6 +687,7 @@ img {
   /* Constrain maximum dimensions */
   max-height: 70vh;
   max-width: 100%;
+  border-bottom-width: 0px;
   /* More modest scaling that won't cause overflow */
   --tw-scale-x: 1;
   --tw-scale-y: 1;

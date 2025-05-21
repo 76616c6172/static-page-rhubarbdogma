@@ -68,7 +68,7 @@
     /* Constrain maximum dimensions */
     @apply max-w-full max-h-[70vh];
     /* More modest scaling that won't cause overflow */
-    @apply scale-100 sm:scale-100 md:scale-110 lg:scale-120;
+    @apply scale-100 sm:scale-100 md:scale-110 lg:scale-120 border-b-0;
     /* Ensure image and map areas remain accessible */
     @apply overflow-visible;
   }
